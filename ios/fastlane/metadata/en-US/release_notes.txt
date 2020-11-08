@@ -1,0 +1,93 @@
+v5.6.3
+======
+
+* ADD: Market Widget for iOS 14
+* ADD: Large iOS widget
+* ADD: Turkish Lira
+* FIX: Refill not working on Lightning
+* FIX: iOS - lightning:lnurl... links
+* FIX: hodlhodl - my contracts - sorted by creation time
+* FIX: scanQR now has progress bar when scanning animated QRs
+* FIX: Backup screen visibility
+* REF: brush up locales sl_SI, cs_CZ
+* REF: Wallet types style
+
+v5.6.2
+======
+
+* ADD: Privacy Settings Screen
+* ADD: Clipboard read opt-out
+* ADD: support lnurl fallback scheme
+* ADD: import LNDHub from QR
+* ADD: Electrum server import from QR
+* ADD: Philippines Peso currency
+* FIX: copy balance on wallet/transactions screen crash
+* FIX: remove padding to prevent text concealment
+* REF: show numeric keyboard when ask for numbers in prompt
+* FIX: locales de_DE, sl_SI, ru, fi_FI, ja_JP, es, pt_BR
+* REF: improve wallet import speed
+
+v5.6.1
+======
+
+* ADD: payjoin support
+* FIX: rare crash on startup (electrum server malformed response)
+* FIX: rare freezes on send screen
+* FIX: bitcoin price widget content overlap
+* FIX: biometrics listener release for some devices
+* FIX: locales pt_BR, pt_PT, ru, sl_SI, ja_JP
+* FIX: add margin for RTL languages
+* FIX: Missing (NT) before $ sign
+
+v.5.6.0
+=======
+
+* FIX: some transactions displayed with 0 value
+* FIX: PSBT with HW wallets flow
+* FIX: rare crash on watch-only receive button
+* FIX: RBF cancel style
+* REF: updated languages sl_SI, de_DE, fi_FI, es_ES
+
+v5.5.9
+=======
+
+* ADD: Arabic language
+* ADD: new choose fee workflow
+* FIX: broken LN -> manage funds -> refill
+* FIX: camera wont scan QR with airgapped HW wallet flow
+* FIX: Refresh from notification
+* FIX: transaction not updating on refresh
+* FIX: textAlign: right for custom fee in CPFP/RBF form
+* FIX: set default fee in CPFP/RBF fee-selection component
+* FIX: update recalculate fee on send screen with custom sat/byte fee rate
+* FIX: broken sendMAX if units are changed several times
+* FIX: validation allows user to create transaction even without valid address & amount
+* FIX: Only send wallets to watch app if installed
+* FIX: Send Max not working
+* FIX: Reorder screen is broken
+
+
+v5.5.8
+======
+
+* ADD: Split for large devices
+* ADD: Export file option
+* ADD: Arabic, Slovenian & Hebrew language
+* ADD: KES, NGN, TWD Fiat
+* FIX: After broadcast, value of sent transaction is incorrect
+* FIX: transaction time when using ElectrumPersonalServer
+* FIX: some ElectrumPersonalServer txs stay unconfirmed
+* FIX: Fixed dark/light theme switch
+* FIX: updated languages pt_BR, pt_PT, es_ES, sl_SI, de_DE, fr_FR, cs_CZ, ja_JP, it, ru, he
+* FIX: create-ln-invoice - button is not blocked, which can lead to multiple invoices created
+* FIX: If user has approved notifications, send hash from watch
+* FIX: If Camera not authorized, show Alert.
+* FIX: Only show direct export
+* FIX: better handling of errors from HodlHodl
+* FIX: Safello buy-bitcoin flow
+* FIX: Request location authorization for HodlHodl
+* FIX: Settings|Network|Lightning Settings fails input for leading or trailing blank
+* FIX: show Import file option
+* FIX: Background had wrong color during loading phase
+* REF: speeded up large wallets (>3k txs)
+* REF: speedup onchain wallet creation
